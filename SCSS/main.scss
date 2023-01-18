@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import "_nav";
+@import "_header";
+@import "_vars";
+@import "_box-4";
+@import "_box-1";
+@import "_box-2";
+@import "_box-3";
+@import "_footer";
+@import "_form";
+@import "_box-contacto";
+@import "_mixin";
+
+h1{
+    font:$titulo-siize;
+}
+
+
+
+//  Defincion de margenes generales o principales para todas las secciones y parrafos */
+  section{
+       text-align: center;
+       padding: 60px;
+  }   
+
+  section img{
+   object-fit: cover;
+   height: 10cm;
+  }
+   
+
+   /* Justificar contenido y para centrar*/
+   .justify-content-space{
+    justify-content: space-between;
+   }
+   .justify-content-center{
+    justify-content: center;
+   }
+
+   .text-center{
+    text-align: center;
+   }
+
+// Estilos para pantallas pequeñas
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+  // Estilos para pantallas en orientación vertical
+@media (orientation: portrait) {
+    body {
+      background-color: #f5f5f5;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+  }
+  
+     

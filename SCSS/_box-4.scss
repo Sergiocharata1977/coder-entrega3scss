@@ -1,0 +1,23 @@
+@import "_vars";
+@import "_mixin";
+
+.box-4{
+   @include flex(row,center,center,nowrap);
+   @include texto(1.1,1.4em,black);
+   background-color:$secondary-color;
+   padding: $section-padding;
+      div{  
+         width: 50%;
+            h2{
+               @include texto(2,1.5,black)
+            }
+         p.parrafo{
+            @include texto(1.1,1.4,black)
+            
+         }
+      }
+         img{
+            width: 50%;
+         }
+      
+  }

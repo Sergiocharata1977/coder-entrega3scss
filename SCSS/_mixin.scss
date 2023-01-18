@@ -1,0 +1,18 @@
+@import "_vars";
+
+//Mixen para Flex
+@mixin flex($direccion, $justificado,$aliniacion,$wrap) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justificado;
+    align-items: $aliniacion;
+    flex-wrap: $wrap;
+  }
+
+  //Mixin Textos
+  @mixin texto($tam,$interliniado,$color){
+    font-size:$tam;
+    line-height:$interliniado;
+    color: $color;
+    }
+   

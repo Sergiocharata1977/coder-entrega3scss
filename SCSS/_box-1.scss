@@ -1,0 +1,13 @@
+@import "_vars";
+@import "_mixin";
+
+.box-1{
+    @include flex(column,center,center,nowrap);
+    @include texto(1.1,1.4em,black);
+    background-color:$secondary-color;
+    padding: $section-padding;
+    text-align: center;
+    padding: 60px;
+  }
+
+      

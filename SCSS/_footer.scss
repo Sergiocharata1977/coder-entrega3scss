@@ -1,0 +1,17 @@
+@import "_vars";
+
+footer{
+    background-color: rgba(68, 55, 184, 0.712);
+    color: #fff;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+       }
+    footer a{
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }

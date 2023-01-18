@@ -1,0 +1,9 @@
+@import "_vars";
+
+//Aplicamos la propiedad object-fit cover, ajustar su tamaño /* Se utiliza la variable para establecer la opacidad */*/
+header img{
+   width:$image-width;
+   height:$video-height;
+   object-fit: cover;
+   opacity:$opacity;
+}     

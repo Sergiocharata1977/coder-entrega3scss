@@ -1,0 +1,35 @@
+//Coleres definción
+$primary-color: rgba(41, 32, 215, 0.855);
+$secondary-color: #a3a3d967;
+$text-color: #333333;
+
+//fuentes
+$primary-font: 'roboto', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
+$base-font-size: 16px;
+$titulo-siize: $base-font-size*2;
+$base-line-height: 1.5;
+
+// Espacios 
+$base-spacing:16px;
+$section-padding: $base-spacing*4;
+$button-padding: $base-spacing*2;
+
+//medidas
+$container-width:100%;
+$image-width:100%;
+$video-height:10cm;
+
+//otros
+$opacity:0.8;
+$transition-duration: 0.3s;
+
+//Justificar contenido
+$display-flex: flex;
+$align-items-center: center;
+$justify-content-center: center;
+$flex-wrap: wrap;
+$flex-direction-row: row;
+$flex-grow-1: 1;
+$text-align-center: center;
+

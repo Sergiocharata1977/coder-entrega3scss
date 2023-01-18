@@ -1,0 +1,52 @@
+@import "_vars";
+
+form{
+    display: flex;
+    justify-content: center;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+        width: 100%;
+        padding: 16px;
+        li{
+            display: flex;
+            flex-direction: column;  
+            margin: 4px 0;
+            width: 100%;  
+            input{
+                width: 100%;
+                padding: 8px;
+              }
+          }
+        }
+  }
+  
+   
+  #botonera{
+    background-color: rgba(61, 47, 188, 0.712);
+    ul li a{
+        color: blanchedalmond;
+        font-size: 16px;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+        &:hover{
+            color: black;
+              font-weight: 600;
+          }
+      }
+
+  }
+  
+  /* Edicion del Formulario */
+  section.form{
+    background-color:rgba(42, 121, 196, 0.473);
+    color: #fff;
+   }
+   .btn.btn-primary{
+    background-color: blueviolet;
+   }
