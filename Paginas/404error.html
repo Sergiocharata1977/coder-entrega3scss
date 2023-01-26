@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Atlas , Pasion y valores</title>
-    <link rel="shortcut icon" href="../Imagenes/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagenes2/favicon-32x32-sin fondo.png" type="image/x-icon">
     <!-- CSS BS -->
     <link rel="stylesheet" href="../CSS-bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
 
 <body>
+ 
+
   <nav class="navbar navbar-expand-lg fixed-top "    id="botonera">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
-        <img src="imagenes/favicon-32x32-sin fondo.png">    
+        <img src="../imagenes2/favicon-32x32-sin fondo.png">    
     
       </a>        
       
@@ -27,22 +30,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Paginas/sobrenosotros.html">Nosotros</a>
+            <a class="nav-link" href="./sobrenosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Paginas/Servicios.html">Servicios</a>
+            <a class="nav-link" href="./Servicios.html">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Paginas/instalaciones.html">Instalaciones</a>
+            <a class="nav-link" href="./instalaciones.html">Instalaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Paginas/contacto.html">Contacto</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Paginas/404error.html">Erro-404</a>
+            <a class="nav-link" href="./404error.html">Erro-404</a>
           </li>
           
         </ul>
@@ -51,13 +54,22 @@
     </div>
     
   </nav> 
+  <header>
+    <img src="../imagenes2/broken volleyball ball.webp" alt="imagene en blanco negro, pelota y aro">
+    
+    
+
+</header>
 
   <section class="pagina-error">
     <h1>¡Ups! Parece que te perdiste</h1>
     <p>La página que estás buscando no se encuentra. ¡Pero no te preocupes! Puedes volver a la <a href="/">página principal</a> o buscar algo interesante en nuestro sitio.</p>
     <img src="https://i.imgur.com/3Y4QKdZ.jpg" alt="Error 404">
     <p>Frase divertida: "¿Alguien ha visto mi página? La perdí en algún lugar de internet."</p>
+    <a href="../index.html"> 
+      <button type="button" class=" boton-mas">Volver al Inicio</button>
 
+    </a>
 
 
   </section>
@@ -107,4 +119,8 @@
   
 
 <script src="../Js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>

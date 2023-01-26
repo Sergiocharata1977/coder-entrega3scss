@@ -9,6 +9,7 @@
      <!-- CSS BS -->
      <link rel="stylesheet" href="..//CSS-bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top " id="botonera">
@@ -27,16 +28,16 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobrenosotros.html">Nosotros</a>
+                <a class="nav-link" href="./sobrenosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Servicios.html">Servicios</a>
+                <a class="nav-link" href="./Servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="instalaciones.html">Instalaciones</a>
+                <a class="nav-link" href="./instalaciones.html">Instalaciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
               
             </ul>
@@ -51,19 +52,21 @@
 </header>
 <main>
   
-    <section class="box-4 ">
+    <section class="box-4 " data-aos="fade-up" >
            <div>
             <h1>Sobre Nosotros</h1>
-            <p>Lorem lipsu Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur beatae sed porro harum voluptatem qui consectetur vitae deleniti? Eos error perferendis maiores, dolorem quas officia voluptates aut aspernatur fuga?</p>
+            <p>"Con más de cuatro décadas de historia, nuestro club ha sido testigo de cómo generaciones de familias han pasado por sus instalaciones. Padres e hijos han sido formados tanto en el ámbito deportivo como en valores y principios. Actualmente, nuestra comisión directiva está compuesta por descendientes de los fundadores, quienes siguen trabajando incansablemente por la comunidad y la juventud."</p>
           </div > 
             <img src="../imagenes2/7.webp" alt=" Foto  de una pelota de voleibol" ;">
     </section>
 
     <section class="box-1"> 
         <H2> Nuestro Equipo de trabajo</H2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus, quasi consectetur ex minima consequuntur ducimus odio fugiat voluptatum, maxime maiores. Blanditiis sed, explicabo praesentium eum delectus maiores laboriosam doloremque.</p>
+        <p>
+          Actualmente, nuestro equipo está compuesto por profesionales hijos de nuestros fundadores, comprometidos con el futuro de la niñez en la ciudad y la región. Con transparencia y profesionalismo, llevamos a cabo las funciones y tareas necesarias para brindar servicios a más de 500 socios.
+        </p>
     </section>
-    <Section class="py-3 container-fluid box-3">
+    <Section class="py-3 container-fluid box-3"  data-aos="fade-up" >
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card mb-3" style="max-width: 540px;">
@@ -73,8 +76,10 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h3 class="card-title">Card title</h3>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h3 class="card-title">Ramiro David </h3>
+                      <p class="card-text">
+                        Ramiro es Contador , encargado de llevar adelante el sector financiero y nuestra mutual. Actulmente tiene 40 años , dos hijos ,que estan en club
+                      </p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
@@ -89,8 +94,10 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h3 class="card-title">Card title</h3>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h3 class="card-title">Fernanda Mirasi</h3>
+                      <p class="card-text"><Table>
+                        Fernanda es una nutricionista  desarrolla los  programas de alimentación para el equipo profesional del club."
+                      </Table>.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
@@ -105,8 +112,10 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h3 class="card-title">Card title</h3>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h3 class="card-title">Roberto Juarez</h3>
+                      <p class="card-text">
+                        Roberto es el Presidente es quien lleva adelante los destinos del club  desde 2019. Actualmente tiene 53 años y esperamos que se quede dos años más. 
+                      </p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
@@ -117,7 +126,7 @@
     
 
    
-    <section class="box-4" >
+    <section class="box-4" data-aos="fade-up" >
       <div>
        <H2>Nuestros valores</H2>
        <p>
@@ -186,4 +195,8 @@
 
 
 <script src="../Js/bootstrap.bundle.js"></script> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+        AOS.init();
+      </script>
 </html>
