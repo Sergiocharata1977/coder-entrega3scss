@@ -33,3 +33,34 @@ $flex-direction-row: row;
 $flex-grow-1: 1;
 $text-align-center: center;
 
+$table-border-color: #ddd;
+$table-header-bg-color: #87CEFA;
+$table-header-text-color: white;
+$table-row-bg-color: #E0FFFF;
+
+table {
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      tr {
+        background-color:$secondary-color;
+        color: $table-header-text-color;
+        th {
+          border: 1px solid $table-border-color;
+          padding: 8px;
+        }
+      }
+    }
+    tbody {
+      tr {
+        background-color: $table-row-bg-color;
+        td {
+          border: 1px solid $table-border-color;
+          padding: 8px;
+        }
+      }
+    }
+  }
+  

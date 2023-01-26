@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Atlas , Pasion y valores</title>
-    <link rel="shortcut icon" href="Imagenes/favicon-32x32-sin fondo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagenes2/favicon-32x32-sin fondo.png" type="image/x-icon">
     <!-- CSS BS -->
-    <link rel="stylesheet" href="CSS-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS-bootstrap/bootstrap.min.css">
     <!-- Mi CSS -->
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top "    id="botonera">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="imagenes/favicon-32x32-sin fondo.png">    
+            <img src="./imagenes2/favicon-32x32-sin fondo.png">    
         
           </a>        
           
@@ -28,16 +29,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/sobrenosotros.html">Nosotros</a>
+                <a class="nav-link" href="./Paginas/sobrenosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/Servicios.html">Servicios</a>
+                <a class="nav-link" href="./Paginas/Servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/instalaciones.html">Instalaciones</a>
+                <a class="nav-link" href="./Paginas/instalaciones.html">Instalaciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/contacto.html">Contacto</a>
+                <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Paginas/404error.html">Erro-404</a>
               </li>
               
             </ul>
@@ -48,15 +52,26 @@
       </nav>
 
 <header>
-        <img src="./Imagenes/8.png" alt="imagene en blanco negro, pelota y aro">
+        <img src="./imagenes2/14.webp" alt="imagene en blanco negro, pelota y aro">
+        
         
 
 </header>
 <main>
     
-    <section class="box-1">
-        <h1>Sobre el Club </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe quia id maxime tempore dolor enim quo eius, error assumenda perspiciatis aliquid nulla veritatis. Quas voluptas veniam inventore ducimus ipsa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe quia id maxime tempore dolor enim quo eius, error assumenda perspiciatis aliquid nulla veritatis. Quas voluptas veniam inventore ducimus ipsa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe quia id maxime tempore dolor enim quo eius, error assumenda perspiciatis aliquid nulla veritatis. Quas voluptas veniam inventore ducimus ipsa! </p>
+    <section class="box-4">
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-TBSq3YNgJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay ></iframe>
+
+        <div>
+          <h1>Sobre el Club </h1>
+        <p>
+          El Club Atlas fue fundado en 1980 con el objetivo de brindar a las mujeres y niñas la oportunidad de practicar deportes. Con la creencia de que las mujeres deben tener espacios adecuados para continuar con su práctica deportiva después de finalizar la educación secundaria. Fundado por tres  visionarios, Roberto Palomino, Maximiliano Guerra y Andrea López, comenzaron en la temporada del 1981 con las primeras clases en un terreno donado por el generoso Don Roberto Cristian.
+
+          Actualmente, cuentan con más de 1300 chicos y chicas practicando distintos deportes como básquet femenino, vóley femenino y voleibol masculino. Además, ofrecen servicios adicionales como comedor con capacidad para 200 personas, un quincho con asador, horno y todos los servicios de vajilla. 
+        
+        </div>
+        </p>
     </section>
     
     
@@ -65,50 +80,138 @@
     </section>
 
     <!-- Sistema de Grilla -->
-    <Section class="py-3 container-fluid box-3">
+    <Section class="py-3 container-fluid box-3" data-aos="fade-up">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100 pt-3">
-            <img src="Imagenes/basquetfemenino.png" class="card-img-top  " alt="Dibujo de mujer jugando las basquetbol">
+          <div class="card h-100 pt-3" >
+            <img src="imagenes2/basquetfemenino.webp" class="card-img-top  " alt="Dibujo de mujer jugando las basquetbol">
             <div class="card-body">
               <h3 class="card-title">Basquetbol Femenino</h3>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Desarrollamos otras actividades para las mujeres y su desarrollo fisico.</p>
+              <a href="./Paginas/404error.html"> 
+                <button type="button" class=" boton-mas">Mas</button>
+
+              </a>
+              
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 pt-3">
-            <img src="Imagenes/basquetmasulino.png" class="card-img-top " alt="Dibujo de hombre jugando al basquetbol">
+            <img src="imagenes2/basquetmasulino.webp" class="card-img-top " alt="Dibujo de hombre jugando al basquetbol">
             <div class="card-body">
               <h3 class="card-title">Basquetbol Masculino</h3>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Esta actvidad comenzo en el año 2004 y hoy cuenta con 150 chicos de distintas categoria.</p>
+              
+              
+              <a href="./Paginas/404error.html"> 
+                <button type="button" class=" boton-mas">Mas</button>
+
+              </a>
+              
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 pt-3">
-            <img src="Imagenes/voleyfemenino.png" class="card-img-top " alt="...">
+            <img src="imagenes2/voleyfemenino.webp" class="card-img-top " alt="...">
             <div class="card-body">
               <h3 class="card-title">Voleibol femenino</h3>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Contamos con un equipo técnico formado por profesionales de larga trayectori. Inscribite .</p>
+              <a href="./Paginas/404error.html"> 
+                <button type="button" class=" boton-mas">Mas</button>
+
+              </a>
+              
+
             </div>
           </div>
         </div>
       
         
       </div>
+          
+      
+        <!-- Acoderdeon  -->
         
-        
-        </Section>
+        <section>
+          <h2>
+            Etapas de la Formacion de Jugadores de Voleibol
+          </h2>
+          <p class="parrafo-1">
+            Cada una de las diferentes etapas de formación de un jugador de voleibol tiene unas necesidades diferentes en cuanto a los distintos aspectos a trabajar con dichos jugadores. Es responsabilidad de la persona encargada de dirigir y/o planificar los entrenamientos conocerlos, para saber el nivel de capacidad y de desarrollo de sus jugadores en cada categoría, qué les podría exigir en cada etapa y cuál sería una progresión lógica de aprendizaje y de adquisición de contenidos, consiguiendo así el cumplimiento de los objetivos de una manera eficiente y eficaz.
+          </p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Infantil
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="Categoría infantil
+              ">
+                <div class="accordion-body">
+                      Edad: 12 -14 años.
+                  Volúmenes: 3 - 4 sesiones semanales; 1 ½ - 2 horas sesión; 8  12 horas semanales; 8 a 9 meses al año; 200 a 225 horas al año.
+                  Programación: Períodos anuales.
+                  Preparación atlética: Fuerza: comienza el desarrollo con su propio cuerpo y materiales auxiliares; Resistencia: aeróbica, con trabajos de duración; Velocidad: etapa negativa.
+                  Técnica individual: Aprendizaje técnico analítico; Multilateralidad y universalidad; Saques y recepción.
+                  Táctica colectiva: Colocador a turno en zona 3; Recepción de 5 jugadores en W; Defensa 3  2 –. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Cadete 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Edad: 16 – 19 años.
+                  Volúmenes: 5 – 6 sesiones semanales;  3 – 3 ½ horas sesión; 12 – 20 horas semanales; 10 – 11 meses al año; 400 – 450 horas al año.
+                  Programación: Por ciclos.
+                  Preparación atlética: Fuerza: sobrecarga con métodos específicos, fuerza máxima, potencia, pliometría; Resistencia: aeróbica, anaeróbica: combinar con técnica – táctica; Velocidad: específica (combinar con técnica –  táctica).
+                  Técnica individual: Rendimiento técnico; Variantes táctica individual; Ataque y bloqueo.
+                  Táctica colectiva: Sistema: 5 – 1 (ataque de zaguero); Recepción: 2 – 3 jugadores en línea; Defensa 3 – 2 – 1 por tiempos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Juvenil
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Edad: 14 – 16 años.
+                  Volúmenes: 4 – 5 sesiones semanales;  2 – 2 ½ horas sesión; 10 – 15 horas semanales; 9 – 10 meses al año; 250 – 300 horas al año.
+                  Programación: Por trimestres o períodos.
+                   Preparación atlética: Fuerza: 1.er año: preparación por sobrecarga (abdominal – espalda), 2.º año: sobrecarga: técnica, resistencia, salto; Resistencia: aeróbica, VO² máximo (capacidad); Velocidad: general especial.
+                   Técnica individual: Perfeccionamiento técnico; Correcciones de detalles; Técnicas especiales; Colocadores y defensa.
+Táctica colectiva: Sistema: 1.er año: 4 – 2, 2.º año: 6 – 2; Recepción de 4 en U o de 5 jugadores en W; Defensa 3 – 2 – 1 basculando.
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
         
       
 
-    <section class="box-4" >
+    <section class="box-4"data-aos="fade-right"  >
        <div>
         <H2>Nuestros valores</H2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe quia id maxime tempore dolor enim quo eius, error assumenda perspiciatis aliquid nulla veritatis. Quas voluptas veniam inventore ducimus ipsa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur beatae sed porro harum voluptatem qui consectetur vitae deleniti? Eos error perferendis maiores, dolorem quas officia voluptates aut aspernatur fuga?</p>
+        <p>
+          1-El club se esfuerza por construir un equipo sólido y unido, donde todos    se respeten y trabajen juntos hacia un objetivo común.
+          2-El club se compromete a desarrollar a sus miembros en todos los aspectos de su vida, no solo en el voleibol, sino también en su carácter y en su desarrollo personal.
+          3-El club promueve un ambiente de trabajo duro y dedicación, donde se espera que todos los miembros se esfuercen por mejorar continuamente y alcanzar sus metas.
+          4-El club se esfuerza por representar a la comunidad con orgullo y dignidad, y se compromete a actuar con integridad y ética en todas sus acciones.</p>
       </div > 
-        <img src="./Imagenes/voleibol.png" alt=" Foto  de una pelotas de voleibol" style="width: 50%;;">
+        <img src="./imagenes2/chicasjugando.webp" alt=" Foto  de una pelotas de voleibol" >
     </section>
 
   
@@ -159,5 +262,9 @@
     </div>
   </footer>
    <script src="Js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+        AOS.init();
+      </script>
 </body>
 </html>

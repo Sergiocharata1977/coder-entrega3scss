@@ -67,4 +67,41 @@ h1{
     }
   }
   
-     
+  .accordion-button{
+    background-color: $primary-color;
+  }
+  .parrafo-1{
+    @media (max-width: 600px) {
+      width: 100%;
+        }
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+  }
+
+.tabla-1{
+  width: 50%;
+  margin: auto;
+}
+.colordefondo{
+  width: 100%;
+  background-color: $secondary-color;
+}
+
+.boton-mas{
+  padding: 10px 20px;
+  background-color:$secondary-color;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.pagina-error{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

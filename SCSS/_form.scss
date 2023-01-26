@@ -1,6 +1,10 @@
 @import "_vars";
 
 form{
+    width: 50%;
+    border: solid 1px rgba(0, 0, 0, 0.17);
+   
+  
     display: flex;
     justify-content: center;
     ul{
@@ -44,8 +48,10 @@ form{
   
   /* Edicion del Formulario */
   section.form{
-    background-color:rgba(42, 121, 196, 0.473);
-    color: #fff;
+    background-color:$secondary-color;
+    color: rgb(32, 30, 30);
+    display: flex;
+    justify-content: center;
    }
    .btn.btn-primary{
     background-color: blueviolet;
