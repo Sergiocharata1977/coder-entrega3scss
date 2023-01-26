@@ -12,7 +12,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -32,7 +32,7 @@ table tbody tr td {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
 }
 #botonera ul {
   display: flex;
@@ -54,7 +54,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -84,7 +84,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -106,7 +106,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -128,7 +128,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -152,7 +152,7 @@ table tbody tr td {
   font-size: 1.1;
   line-height: 1.4em;
   color: black;
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   padding: 64px;
 }
 @media (max-width: 600px) {
@@ -197,7 +197,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -219,7 +219,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -243,7 +243,7 @@ table tbody tr td {
   font-size: 1.1;
   line-height: 1.4em;
   color: black;
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   padding: 64px;
   text-align: center;
   padding: 60px;
@@ -256,7 +256,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -285,7 +285,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -314,8 +314,7 @@ table tbody tr td {
 }
 
 .fondo {
-  background-color: rgba(125, 125, 189, 0.123);
-  padding: 1cm;
+  background-color: rgba(116, 116, 214, 0.4078431373);
 }
 
 table {
@@ -325,7 +324,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -364,7 +363,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -423,7 +422,7 @@ form ul li input {
 
 /* Edicion del Formulario */
 section.form {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: rgb(32, 30, 30);
   display: flex;
   justify-content: center;
@@ -440,7 +439,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -467,7 +466,7 @@ table {
   border-collapse: collapse;
 }
 table thead tr {
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   color: white;
 }
 table thead tr th {
@@ -527,7 +526,7 @@ section img {
   }
 }
 .accordion-button {
-  background-color: rgba(41, 32, 215, 0.855);
+  background-color: rgba(116, 116, 214, 0.4078431373);
 }
 
 .parrafo-1 {
@@ -548,12 +547,12 @@ section img {
 
 .colordefondo {
   width: 100%;
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
 }
 
 .boton-mas {
   padding: 10px 20px;
-  background-color: rgba(163, 163, 217, 0.4039215686);
+  background-color: rgba(116, 116, 214, 0.4078431373);
   border: none;
   border-radius: 5px;
 }
